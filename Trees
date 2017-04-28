@@ -1,0 +1,21 @@
+<!D0CTYPE html>
+<html>
+<body>
+<script>
+
+function trees(m){
+  for(var i = 1; i <= m; i = i + 1){
+    console.log( "      /\\       \n" +
+                 "     /  \\      \n" +
+                 "     /  \\      \n" +
+                 "      ||        \n") ;
+    }
+
+
+}
+
+trees(parseInt(prompt("How many trees would you like?")));
+
+</script>
+</body>
+</html>
